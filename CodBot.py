@@ -9,6 +9,7 @@ import discord
 # from discord.ext import commands
 from Cards import CardDict
 import re
+import os
 
 # Currently unused. If uncommented, also uncomment 'import commands'
 # client = commands.Bot(command_prefix='!')
@@ -38,7 +39,7 @@ async def on_message(message):
         await message.channel.send(Description)
 
 # Discord bot token is stored in a separate file, ignored by gitHub for privacy
-with open("token.txt", "r", encoding="utf-8") as token:
-    botToken = token.read()
+# with open("token.txt", "r", encoding="utf-8") as token:
+#     botToken = token.read()
 
-client.run(botToken)
+client.run(os.getenv('TOKEN'))
