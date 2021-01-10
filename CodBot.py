@@ -6,10 +6,17 @@ Created on Wed Jan  6 22:17:54 2021
 """
 
 import discord
-# from discord.ext import commands
 from Cards import CardDict
 import re
-import os
+# from discord.ext import commands
+# import os
+
+client = discord.Client()
+
+# Print confirmation that bot is logged in
+@client.event
+async def on_ready():
+    print('We have logged in as {0.user}'.format(client))
 
 # Currently unused. If uncommented, also uncomment 'import commands'
 # client = commands.Bot(command_prefix='!')
@@ -38,8 +45,10 @@ async def on_message(message):
         Description = str(CardExtract + ': ' + CardLookup)
         await message.channel.send(Description)
 
-Discord bot token is stored in a separate file, ignored by gitHub for privacy
+# Discord bot token is stored in a separate file, ignored by gitHub for privacy
 with open("token.txt", "r", encoding="utf-8") as token:
     botToken = token.read()
+# Uncomment if storing token in environment variables
+#client.run(os.getenv('TOKEN'))
 
-# client.run(os.getenv('TOKEN'))
+client.run(botToken)
