@@ -38,8 +38,8 @@ async def on_message(message):
         Description = str(CardExtract + ': ' + CardLookup)
         await message.channel.send(Description)
 
-# Discord bot token is stored in a separate file, ignored by gitHub for privacy
-# with open("token.txt", "r", encoding="utf-8") as token:
-#     botToken = token.read()
+Discord bot token is stored in a separate file, ignored by gitHub for privacy
+with open("token.txt", "r", encoding="utf-8") as token:
+    botToken = token.read()
 
-client.run(os.getenv('TOKEN'))
+# client.run(os.getenv('TOKEN'))
