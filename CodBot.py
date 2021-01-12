@@ -17,36 +17,36 @@ def CardSearch(card):
     with open('CardsList.csv', newline='') as csvfile:
         CardReader = csv.DictReader(csvfile, delimiter=',')
 
-        # Find card with highest fuzzy match
+        # # Find card with highest fuzzy match
         for row in CardReader:
             CardTitles.append(row['Title'])
         FuzzyMatch = process.extractOne(card, CardTitles)
-        FuzzyRatio = FuzzyMatch[1]
         CardMatch = str(FuzzyMatch)[2:-6]
-        if FuzzyRatio != 100:
-            print('Did you mean: ' + CardMatch + '?')
+        FuzzyCard = 'Searching for: ' + CardMatch + '\n'
 
-        else:
-            # Iterate over all the cards and check if the title matches
-            for row in CardReader:
-                if CardMatch == row['Title']:
-                    # If card has no tier modifiers
-                    if (row['Level 1'] or row['Level 1'] or row['Level 1']) == 'n/a':
-                        CardDesc = str(row['Title']) +'\n'+ str(row['Description']) +'\n'+ 'No tier modifiers'
-                        return CardDesc
+    with open('CardsList.csv', newline='') as csvfile2:
+        CardReader2 = csv.DictReader(csvfile2, delimiter=',')
 
-                    # If card has tier modifiers, append them to output
-                    else:
-                        CardDesc = str(row['Title']) +'\n'+ str(row['Description']) +'\n'+\
-                                   'Tier 1: ' + str(row['Level 1']) + ', '+\
-                                   'Tier 2: ' + str(row['Level 2']) + ', '+\
-                                   'Tier 3: ' + str(row['Level 3'])
-                        return CardDesc
+        # Iterate over all the cards and check if the title matches
+        for row2 in CardReader2:
+            if CardMatch == row2['Title']:
+                # If card has no tier modifiers
+                if (row2['Level 1'] or row2['Level 1'] or row2['Level 1']) == 'n/a':
+                    CardDesc = str(row2['Title']) +'\n'+ str(row2['Description']) +'\n'+ 'No tier modifiers'
+                    return FuzzyCard + CardDesc
 
-    # If no card found, let user know
-    if CardDesc == '':
-        CardDesc = 'No card found'
-        return CardDesc
+                # If card has tier modifiers, append them to output
+                else:
+                    CardDesc = str(row2['Title']) +'\n'+ str(row2['Description']) +'\n'+\
+                               'Tier 1: ' + str(row2['Level 1']) + ', '+\
+                               'Tier 2: ' + str(row2['Level 2']) + ', '+\
+                               'Tier 3: ' + str(row2['Level 3'])
+                    return FuzzyCard + CardDesc
+
+        # If no card found, let user know
+        if CardDesc == '':
+            CardDesc = 'No card found'
+            return CardDesc
 
 client = discord.Client()
 
