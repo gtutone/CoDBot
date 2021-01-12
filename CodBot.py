@@ -6,10 +6,35 @@ Created on Wed Jan  6 22:17:54 2021
 """
 
 import discord
-from Cards import CardDict
 import re
-# from discord.ext import commands
-# import os
+import csv
+
+def CardSearch(card):
+    CardDesc = ''
+    # Read the csv file containing the cards
+    with open('CardsList.csv', newline='') as csvfile:
+        CardReader = csv.DictReader(csvfile, delimiter=',')
+
+        # Iterate over all the cards and check if the title matches
+        for row in CardReader:
+            if card == row['Title']:
+                # If card has no tier modifiers
+                if (row['Level 1'] or row['Level 1'] or row['Level 1']) == 'n/a':
+                    CardDesc = str(row['Title']) +'\n'+ str(row['Description']) +'\n'+ 'No tier modifiers'
+                    return CardDesc
+
+                # If card has tier modifiers, append them to output
+                else:
+                    CardDesc = str(row['Title']) +'\n'+ str(row['Description']) +'\n'+\
+                               'Tier 1: ' + str(row['Level 1']) + ', '+\
+                               'Tier 2: ' + str(row['Level 2']) + ', '+\
+                               'Tier 3: ' + str(row['Level 3'])
+                    return CardDesc
+
+    # If no card found, let user know
+    if CardDesc == '':
+        CardDesc = 'No card found'
+        return CardDesc
 
 client = discord.Client()
 
@@ -20,9 +45,9 @@ async def on_ready():
 
 # Currently unused. If uncommented, also uncomment 'import commands'
 # client = commands.Bot(command_prefix='!')
-PlayedGame = 'Card of Darkness'
 
 # Add the "Playing: CoD" rich presence text to the bot
+PlayedGame = 'Card of Darkness'
 @client.event
 async def on_ready():
     print('We have logged in as {0.user}'.format(client))
@@ -35,20 +60,23 @@ async def on_message(message):
     if message.author == client.user:
         return
 
-    # Look for messages that contain 'card of'
-    if 'Card of' or 'card of' in message.content:
+    # Make message lowercase, so it's easier to search for keywords
+    messageLow = message.content.lower()
+
+    # Look for messages that contain 'card'
+    if 'card' in messageLow:
         # Find the card in the message and make every first letter uppercase
-        CardExtract = str(re.findall('card of \w+', message.content, re.IGNORECASE)).title()[2:-2]
-        # Lookup card description in the Cards dictionary
-        CardLookup = CardDict[CardExtract]
-        # Add the card name to the description to be more user friendly
-        Description = str(CardExtract + ': ' + CardLookup)
-        await message.channel.send(Description)
+        CardExtract = str(re.findall('the card of \w+', message.content, re.IGNORECASE)).title()[2:-2]
+        # Lookup card using the CardSearch function
+        CardLookup = CardSearch(CardExtract)
+        # Send card description text to channel
+        await message.channel.send(CardLookup)
+
+    else:
+        await message.channel.send('No card contained in message')
 
 # Discord bot token is stored in a separate file, ignored by gitHub for privacy
 with open("token.txt", "r", encoding="utf-8") as token:
     botToken = token.read()
-# Uncomment if storing token in environment variables
-#client.run(os.getenv('TOKEN'))
 
 client.run(botToken)

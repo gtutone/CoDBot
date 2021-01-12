@@ -1,0 +1,26 @@
+Title,Description,Level 1,Level 2,Level 3
+The Card Of Steel,Swords are all +X.,X=1,,
+The Card Of Growth,All Standard Potions +X.,X=1,,
+The Card Of Life,Max Health +X.,X=5,,
+The Card Of Drink,Add an extra (X) potion to each floor.,X=1,,
+The Card Of Swords,Double one random Basic Sword per floor.,n/a,n/a,n/a
+The Card Of Wealth,All Chests are +X.,X=4,,
+The Card Of Heroes,Full heal if you clear the whole floor.,n/a,n/a,n/a
+The Card Of Wood,Take X Less damage from thorns.,X=2,X=4,X=6
+The Card Of Eyes,All stacks visible at the start of each level.,n/a,n/a,n/a
+The Card Of Bones,No Hoarders.,n/a,n/a,n/a
+The Card Of Knowledge,Start with one random Scroll.,n/a,n/a,n/a
+The Card Of Privilege,Each floor starts with a treasure in the first row.,n/a,n/a,n/a
+The Card Of Iron,Daggers are all +X.,X=1,X=3,
+The Card Of Luck,X% chance that Potions will heal you double.,X=10,X=15,
+The Card Of Equals,Basic Swords are all X.,X=5,,
+The Card Of Strength,Potion of Strength increases my bare-handed attack by X.,X=2,,
+The Card Of Return,"The first time you are killed in a dungeon, revive with X hp.",X=1,X=10,
+The Card Of Aggression,The first weapon you pick up on each floor is doubled.,n/a,n/a,n/a
+The Card Of Cruelty,Picking up a Potion does X damage to adjacent cards.,X=1,,
+The Card Of Chaos,Gain one HP each turn you're confused.,n/a,n/a,n/a
+The Card Of Clarity,X% chance a card will show through confusion.,X=10,,
+The Card Of Study,"50% fewer scrolls, but 50% of the time when you cast a spell, the scroll is not used up.",n/a,n/a,n/a
+The Card Of Truth,Fart every time.,n/a,n/a,n/a
+The Card Of Plagues,All poison does X damage a turn.,X=2,,
+The Card Of Stalwarts,You cannot die from poison.,n/a,n/a,n/a
