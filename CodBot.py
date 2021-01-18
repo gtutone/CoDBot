@@ -23,6 +23,9 @@ def CardSearch(card):
             CardTitles.append(row['Title'])
         FuzzyMatch = process.extractOne(card, CardTitles)
         CardMatch = str(FuzzyMatch)[2:-6]
+        # If not CoD, slice one additional char at end, or else it leaves a trailing apostrophe in string
+        if CardMatch.startswith('The Card of') is False:
+            CardMatch = CardMatch[:-1]
 
     # Re-iterate through the csv, and match the fuzzy match card with its description
     with open('CardsList.csv', newline='') as csvfile2:
@@ -31,17 +34,29 @@ def CardSearch(card):
         # Iterate over all the cards and check if the title matches
         for row2 in CardReader2:
             if CardMatch == row2['Title']:
-                # If card has no tier modifiers
-                if (row2['Level 1'] or row2['Level 1'] or row2['Level 1']) == 'n/a':
-                    CardDesc = str(row2['Title']) +'\n'+ str(row2['Description']) +'\n'+ 'No tier modifiers'
-                    return CardDesc
+                print(str(row2['Type']))
 
-                # If card has tier modifiers, append them to output
+                # If card is Card of Darkness, check the level modifiers
+                if str(row2['Type']) == 'Card of Darkness':
+                    # If card is CoD and has no level modifiers
+                    if (row2['Campaign'] or row2['Level 1'] or row2['Level 1'] or row2['Level 1']) == 'n/a':
+                        CardDesc = str(row2['Title']) + '\n'+\
+                        str(row2['Description']) +'\n'+ 'No tier modifiers'+'\n'+ 'Type: ' + str(row2['Type'])
+                        return CardDesc
+
+                    # If card has level modifiers, append them to output
+                    else:
+                        CardDesc = str(row2['Title']) +'\n'+ str(row2['Description']) +'\n'+ \
+                                   'Campaign: ' + str(row2['Campaign']) + ', ' + \
+                                   'Level 1: ' + str(row2['Level 1']) + ', '+\
+                                   'Level 2: ' + str(row2['Level 2']) + ', '+\
+                                   'Level 3: ' + str(row2['Level 3']) + '\n'+ \
+                                   'Type: ' + str(row2['Type'])
+                        return CardDesc
+
+                # If card is not Card of Darkness, don't display modifiers
                 else:
-                    CardDesc = str(row2['Title']) +'\n'+ str(row2['Description']) +'\n'+\
-                               'Tier 1: ' + str(row2['Level 1']) + ', '+\
-                               'Tier 2: ' + str(row2['Level 2']) + ', '+\
-                               'Tier 3: ' + str(row2['Level 3'])
+                    CardDesc = str(row2['Title']) +'\n'+str(row2['Description']) +'\n'+'Type: '+str(row2['Type'])
                     return CardDesc
 
         # If somehow no card found, let user know

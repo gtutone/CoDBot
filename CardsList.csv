@@ -1,26 +1,59 @@
-Title,Description,Level 1,Level 2,Level 3
-The Card Of Steel,Swords are all +X.,X=1,,
-The Card Of Growth,All Standard Potions +X.,X=1,,
-The Card Of Life,Max Health +X.,X=5,,
-The Card Of Drink,Add an extra (X) potion to each floor.,X=1,,
-The Card Of Swords,Double one random Basic Sword per floor.,n/a,n/a,n/a
-The Card Of Wealth,All Chests are +X.,X=4,,
-The Card Of Heroes,Full heal if you clear the whole floor.,n/a,n/a,n/a
-The Card Of Wood,Take X Less damage from thorns.,X=2,X=4,X=6
-The Card Of Eyes,All stacks visible at the start of each level.,n/a,n/a,n/a
-The Card Of Bones,No Hoarders.,n/a,n/a,n/a
-The Card Of Knowledge,Start with one random Scroll.,n/a,n/a,n/a
-The Card Of Privilege,Each floor starts with a treasure in the first row.,n/a,n/a,n/a
-The Card Of Iron,Daggers are all +X.,X=1,X=3,
-The Card Of Luck,X% chance that Potions will heal you double.,X=10,X=15,
-The Card Of Equals,Basic Swords are all X.,X=5,,
-The Card Of Strength,Potion of Strength increases my bare-handed attack by X.,X=2,,
-The Card Of Return,"The first time you are killed in a dungeon, revive with X hp.",X=1,X=10,
-The Card Of Aggression,The first weapon you pick up on each floor is doubled.,n/a,n/a,n/a
-The Card Of Cruelty,Picking up a Potion does X damage to adjacent cards.,X=1,,
-The Card Of Chaos,Gain one HP each turn you're confused.,n/a,n/a,n/a
-The Card Of Clarity,X% chance a card will show through confusion.,X=10,,
-The Card Of Study,"50% fewer scrolls, but 50% of the time when you cast a spell, the scroll is not used up.",n/a,n/a,n/a
-The Card Of Truth,Fart every time.,n/a,n/a,n/a
-The Card Of Plagues,All poison does X damage a turn.,X=2,,
-The Card Of Stalwarts,You cannot die from poison.,n/a,n/a,n/a
+Title,Type,Description,Campaign,Level 1,Level 2,Level 3
+The Card of Steel,Card of Darkness,Swords are all +X.,X=1,X=1,?,?
+The Card of Growth,Card of Darkness,All Standard Potions +X.,X=1,X=1,?,?
+The Card of Life,Card of Darkness,Max Health +X.,X=3,X=5,?,?
+The Card of Drink,Card of Darkness,Add an extra (X) potion to each floor.,X=1,X=1,?,?
+The Card of Swords,Card of Darkness,Double one random Basic Sword per floor.,n/a,n/a,n/a,n/a
+The Card of Wealth,Card of Darkness,All Chests are +X.,X=2,X=4,?,?
+The Card of Heroes,Card of Darkness,Full heal if you clear the whole floor.,n/a,n/a,n/a,n/a
+The Card of Wood,Card of Darkness,Take X Less damage from thorns.,X=2,X=2,X=4,X=6
+The Card of Eyes,Card of Darkness,All stacks visible at the start of each level.,n/a,n/a,n/a,n/a
+The Card of Bones,Card of Darkness,No Hoarders.,n/a,n/a,n/a,n/a
+The Card of Knowledge,Card of Darkness,Start with one random Scroll.,n/a,n/a,n/a,n/a
+The Card of Privilege,Card of Darkness,Each floor starts with a treasure in the first row.,n/a,n/a,n/a,n/a
+The Card of Iron,Card of Darkness,Daggers are all +X.,X=1,X=1,X=3,?
+The Card of Luck,Card of Darkness,X% chance that Potions will heal you double.,,X=10,X=15,?
+The Card of Equals,Card of Darkness,Basic Swords are all X.,X=5,X=5,?,?
+The Card of Strength,Card of Darkness,Potion of Strength increases my bare-handed attack by X.,,X=2,?,?
+The Card of Return,Card of Darkness,"The first time you are killed in a dungeon, revive with X hp.",,X=1,X=10,?
+The Card of Aggression,Card of Darkness,The first weapon you pick up on each floor is doubled.,n/a,n/a,n/a,n/a
+The Card of Cruelty,Card of Darkness,Picking up a Potion does X damage to adjacent cards.,X=1,X=1,?,?
+The Card of Chaos,Card of Darkness,Gain one HP each turn you're confused.,n/a,n/a,n/a,n/a
+The Card of Clarity,Card of Darkness,X% chance a card will show through confusion.,X=10,X=10,?,?
+The Card of Study,Card of Darkness,"50% fewer scrolls, but 50% of the time when you cast a spell, the scroll is not used up.",n/a,n/a,n/a,n/a
+The Card of Truth,Card of Darkness,Fart every time.,n/a,n/a,n/a,n/a
+The Card of Plagues,Card of Darkness,All poison does X damage a turn.,X=2,X=2,?,?
+The Card of Stalwarts,Card of Darkness,You cannot die from poison.,n/a,n/a,n/a,n/a
+The Card of Health,Card of Darkness,Max Health +X.,X=1,?,?,?
+The Card of Daggers,Card of Darkness,Double one random Dagger per floor.,n/a,?,?,?
+The Card of Thick Skin,Card of Darkness,"Take Xhp of damage for each marked pile when leaving, but you can leave.",X=8,?,?,?
+The Card of Hard Heads,Card of Darkness,X% chance to resist Stun.,X=50,?,?,?
+The Card of Cures,Card of Darkness,X% chance to resist poison.,X=25,?,?,?
+The Card of Means,Card of Darkness,"All treasures are reduced to X, but pickup up any treasure puts adjacent enemies to sleep.",X=1,?,?,?
+The Card of Wants,Card of Darkness,Double a random Chest.,n/a,n/a,n/a,n/a
+The Card of Temperament,Card of Darkness,X% chance for Daggers to not reduce on use.,X=25,?,?,?
+The Card of Dampness,Card of Darkness,Banner Beasts only add +X.,X=2,?,?,?
+The Card of Confidence,Card of Darkness,"Max Health -X, all Potions +Y.","X=3, Y=1",?,?,?
+The Card of Stones,Card of Darkness,All Slingshots +X.,X=1,?,?,?
+The Card of Sickness,Card of Darkness,X% chance for the Slingshot to poison.,X=10,?,?,?
+The Card of Haste,Card of Darkness,All Potions of Patience start at X.,X=2,?,?,?
+The Card of Cold,Card of Darkness,Burning Steel has a X% chance to not hurt me.,X=25,?,?,?
+The Card of Blades,Card of Darkness,Shivs are all +X.,X=1,?,?,?
+The Card of Swiftness,Card of Darkness,"The first time I would take damange on a floor, take no damage.",n/a,?,?,?
+The Card of Fish,Card of Darkness,Bladefish are all +X.,X=1,?,?,?
+The Card of Death,Card of Darkness,Adjacent cards are sometimes poisoned when I pick up a monster and take no damage.,n/a,n/a,n/a,n/a
+The Card of Recovery,Card of Darkness,The first Potion I pick up on a floor is +X.,X=4,?,?,?
+The Card of Mud,Card of Darkness,"When Goo splits, it poisons the cards it covers up.",n/a,n/a,n/a,n/a
+The Card of Sharing,Card of Darkness,Rusty Edge does X damage to all enemies on pickup.,X=1,?,?,?
+The Card of Ease,Card of Darkness,Reduce all enemies by X (to a minimum of 1 strength).,X=1,?,?,?
+The Card of Fossils,Card of Darkness,Blades of grass have a X% chance to be normal swords.,X=10,?,?,?
+The Card of Precision,Card of Darkness,Confusion lasts for X less turn.,X=1,X=1,?,?
+The Card of The Deep,Card of Darkness,Your weapon goes up by X after each floor.,X=2,?,?,?
+The Card of Escalation,Card of Darkness,Each face-up card goes up by X when the stairs are reached.,X=1,?,?,?
+The Card of Keeping,Card of Darkness,"Weapons do not replace your held weapons, instead they add 1 to your current weapon, regardless of weapon type.",n/a,n/a,n/a,n/a
+Treasure!,Treasure,Just some basic treasure. On Pickup: rewards me by its value.,n/a,n/a,n/a,n/a
+Potion of Healing,Potion,Just a standard potion. On Pickup: heals me by its value.,n/a,n/a,n/a,n/a
+Rockboy,Enemy,Just your everyday bad guy. Nothing special.,n/a,n/a,n/a,n/a
+Craven,Enemy,75% chance to swap places with nearby face-up cards.,n/a,n/a,n/a,n/a
+Basic Sword,Weapon,Reduces monster damage. Breaks on opposite parity.,n/a,n/a,n/a,n/a
+Fireball!,Scroll,Cast to: Reduce target card by 7.,n/a,n/a,n/a,n/a
