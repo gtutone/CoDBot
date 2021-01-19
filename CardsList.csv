@@ -1,59 +1,198 @@
-Title,Type,Description,Campaign,Level 1,Level 2,Level 3
-The Card of Steel,Card of Darkness,Swords are all +X.,X=1,X=1,?,?
-The Card of Growth,Card of Darkness,All Standard Potions +X.,X=1,X=1,?,?
-The Card of Life,Card of Darkness,Max Health +X.,X=3,X=5,?,?
-The Card of Drink,Card of Darkness,Add an extra (X) potion to each floor.,X=1,X=1,?,?
-The Card of Swords,Card of Darkness,Double one random Basic Sword per floor.,n/a,n/a,n/a,n/a
-The Card of Wealth,Card of Darkness,All Chests are +X.,X=2,X=4,?,?
-The Card of Heroes,Card of Darkness,Full heal if you clear the whole floor.,n/a,n/a,n/a,n/a
-The Card of Wood,Card of Darkness,Take X Less damage from thorns.,X=2,X=2,X=4,X=6
-The Card of Eyes,Card of Darkness,All stacks visible at the start of each level.,n/a,n/a,n/a,n/a
-The Card of Bones,Card of Darkness,No Hoarders.,n/a,n/a,n/a,n/a
-The Card of Knowledge,Card of Darkness,Start with one random Scroll.,n/a,n/a,n/a,n/a
-The Card of Privilege,Card of Darkness,Each floor starts with a treasure in the first row.,n/a,n/a,n/a,n/a
-The Card of Iron,Card of Darkness,Daggers are all +X.,X=1,X=1,X=3,?
-The Card of Luck,Card of Darkness,X% chance that Potions will heal you double.,,X=10,X=15,?
-The Card of Equals,Card of Darkness,Basic Swords are all X.,X=5,X=5,?,?
-The Card of Strength,Card of Darkness,Potion of Strength increases my bare-handed attack by X.,,X=2,?,?
-The Card of Return,Card of Darkness,"The first time you are killed in a dungeon, revive with X hp.",,X=1,X=10,?
-The Card of Aggression,Card of Darkness,The first weapon you pick up on each floor is doubled.,n/a,n/a,n/a,n/a
-The Card of Cruelty,Card of Darkness,Picking up a Potion does X damage to adjacent cards.,X=1,X=1,?,?
-The Card of Chaos,Card of Darkness,Gain one HP each turn you're confused.,n/a,n/a,n/a,n/a
-The Card of Clarity,Card of Darkness,X% chance a card will show through confusion.,X=10,X=10,?,?
-The Card of Study,Card of Darkness,"50% fewer scrolls, but 50% of the time when you cast a spell, the scroll is not used up.",n/a,n/a,n/a,n/a
-The Card of Truth,Card of Darkness,Fart every time.,n/a,n/a,n/a,n/a
-The Card of Plagues,Card of Darkness,All poison does X damage a turn.,X=2,X=2,?,?
-The Card of Stalwarts,Card of Darkness,You cannot die from poison.,n/a,n/a,n/a,n/a
-The Card of Health,Card of Darkness,Max Health +X.,X=1,?,?,?
-The Card of Daggers,Card of Darkness,Double one random Dagger per floor.,n/a,?,?,?
-The Card of Thick Skin,Card of Darkness,"Take Xhp of damage for each marked pile when leaving, but you can leave.",X=8,?,?,?
-The Card of Hard Heads,Card of Darkness,X% chance to resist Stun.,X=50,?,?,?
-The Card of Cures,Card of Darkness,X% chance to resist poison.,X=25,?,?,?
-The Card of Means,Card of Darkness,"All treasures are reduced to X, but pickup up any treasure puts adjacent enemies to sleep.",X=1,?,?,?
-The Card of Wants,Card of Darkness,Double a random Chest.,n/a,n/a,n/a,n/a
-The Card of Temperament,Card of Darkness,X% chance for Daggers to not reduce on use.,X=25,?,?,?
-The Card of Dampness,Card of Darkness,Banner Beasts only add +X.,X=2,?,?,?
-The Card of Confidence,Card of Darkness,"Max Health -X, all Potions +Y.","X=3, Y=1",?,?,?
-The Card of Stones,Card of Darkness,All Slingshots +X.,X=1,?,?,?
-The Card of Sickness,Card of Darkness,X% chance for the Slingshot to poison.,X=10,?,?,?
-The Card of Haste,Card of Darkness,All Potions of Patience start at X.,X=2,?,?,?
-The Card of Cold,Card of Darkness,Burning Steel has a X% chance to not hurt me.,X=25,?,?,?
-The Card of Blades,Card of Darkness,Shivs are all +X.,X=1,?,?,?
-The Card of Swiftness,Card of Darkness,"The first time I would take damange on a floor, take no damage.",n/a,?,?,?
-The Card of Fish,Card of Darkness,Bladefish are all +X.,X=1,?,?,?
-The Card of Death,Card of Darkness,Adjacent cards are sometimes poisoned when I pick up a monster and take no damage.,n/a,n/a,n/a,n/a
-The Card of Recovery,Card of Darkness,The first Potion I pick up on a floor is +X.,X=4,?,?,?
-The Card of Mud,Card of Darkness,"When Goo splits, it poisons the cards it covers up.",n/a,n/a,n/a,n/a
-The Card of Sharing,Card of Darkness,Rusty Edge does X damage to all enemies on pickup.,X=1,?,?,?
-The Card of Ease,Card of Darkness,Reduce all enemies by X (to a minimum of 1 strength).,X=1,?,?,?
-The Card of Fossils,Card of Darkness,Blades of grass have a X% chance to be normal swords.,X=10,?,?,?
-The Card of Precision,Card of Darkness,Confusion lasts for X less turn.,X=1,X=1,?,?
-The Card of The Deep,Card of Darkness,Your weapon goes up by X after each floor.,X=2,?,?,?
-The Card of Escalation,Card of Darkness,Each face-up card goes up by X when the stairs are reached.,X=1,?,?,?
-The Card of Keeping,Card of Darkness,"Weapons do not replace your held weapons, instead they add 1 to your current weapon, regardless of weapon type.",n/a,n/a,n/a,n/a
-Treasure!,Treasure,Just some basic treasure. On Pickup: rewards me by its value.,n/a,n/a,n/a,n/a
-Potion of Healing,Potion,Just a standard potion. On Pickup: heals me by its value.,n/a,n/a,n/a,n/a
-Rockboy,Enemy,Just your everyday bad guy. Nothing special.,n/a,n/a,n/a,n/a
-Craven,Enemy,75% chance to swap places with nearby face-up cards.,n/a,n/a,n/a,n/a
-Basic Sword,Weapon,Reduces monster damage. Breaks on opposite parity.,n/a,n/a,n/a,n/a
-Fireball!,Scroll,Cast to: Reduce target card by 7.,n/a,n/a,n/a,n/a
+ID,Title,Type,Description,Level 1,Level 2,Level 3,Zone
+0,The Card of Health,Card of Darkness,Max Health +X.,2,5,10,Glinhorn Forest 1
+1,The Card of Life,Card of Darkness,Max Health +X.,5,10,15,The Nether Shore 2
+2,The Card of Drink,Card of Darkness,Add an extra (1) potion to each floor.,n/a,n/a,n/a,The Nether Shore 3
+3,The Card of Growth,Card of Darkness,All Standard Potions +X.,1,3,6,Glinhorn Forest 4
+4,The Card of Swords,Card of Darkness,Double one random Basic Sword per floor.,n/a,n/a,n/a,The Nether Shore 1
+5,The Card of Daggers,Card of Darkness,Double one random Dagger per floor.,n/a,n/a,n/a,Glinhorn Forest 3
+6,The Card of Thick Skin,Card of Darkness,"Take 8hp of damage for each marked pile when leaving, but you can leave.",n/a,n/a,n/a,Slellin Realm 1
+7,The Card of Steel,Card of Darkness,Swords are all +X.,2,3,4,The Nether Shore 5
+8,The Card of Wealth,Card of Darkness,All Chests are +X.,4,6,8,Glinhorn Forest 2
+9,The Card of Heroes,Card of Darkness,Full heal if you clear the whole floor.,n/a,n/a,n/a,Glinhorn Forest 5
+10,The Card of Hard Heads,Card of Darkness,Resist every other Stun.,n/a,n/a,n/a,The Nether Shore 6
+11,The Card of Cures,Card of Darkness,X% chance to resist poison.,10,20,30,The Nether Shore 4
+12,The Card of Wood,Card of Darkness,Take X Less damage from thorns.,2,4,6,Glinhorn Forest 6
+13,The Card of Eyes,Card of Darkness,All stacks visible at the start of each level.,n/a,n/a,n/a,Dreary Steppes 1
+14,The Card of Means,Card of Darkness,"All treasures are set to X, but picking up any treasure puts adjacent enemies to sleep.",1,5,10,Dreary Steppes 2
+15,The Card of Wants,Card of Darkness,Double a random Chest.,n/a,n/a,n/a,Dreary Steppes 3
+16,The Card of Temperament,Card of Darkness,X% chance for Daggers to not reduce on use.,10,20,40,Dreary Steppes 4
+17,The Card of Dampness,Card of Darkness,Banner Beasts only add +2.,n/a,n/a,n/a,Dreary Steppes 5
+18,The Card of Confidence,Card of Darkness,"Max Health -3, all Potions +X.",1,3,5,Dreary Steppes 6
+19,The Card of Stones,Card of Darkness,Slingshots come with +X Ammo.,2,4,6,Mount Lavalgrave 1
+20,The Card of Sickness,Card of Darkness,X% chance for the Slingshot to poison.,10,25,33,Mount Lavalgrave 2
+21,The Card of Haste,Card of Darkness,All Potions of Patience start at X.,2,3,4,Mount Lavalgrave 3
+22,The Card of Cold,Card of Darkness,Burning Steel has a X% chance to not hurt you.,10,25,33,Mount Lavalgrave 4
+23,The Card of Privilege,Card of Darkness,Each floor starts with a treasure in the first row.,n/a,n/a,n/a,Mount Lavalgrave 5
+24,The Card of Bones,Card of Darkness,No Hoarders.,n/a,n/a,n/a,Mount Lavalgrave 6
+25,The Card of Knowledge,Card of Darkness,Start with one random Scroll.,n/a,n/a,n/a,Slellin Realm 2
+26,The Card of Iron,Card of Darkness,Daggers are all +X.,2,3,4,The Deep Deep 1
+27,The Card of Blades,Card of Darkness,Shivs are all +X.,2,3,4,The Deep Deep 2
+28,The Card of Luck,Card of Darkness,X% chance that Potions will heal you double.,10,15,25,The Deep Deep 3
+29,The Card of Swiftness,Card of Darkness,"The first time I would take damage on a floor, take no damage.",n/a,n/a,n/a,The Deep Deep 4
+30,The Card of Fish,Card of Darkness,Bladefish are all +X.,1,2,3,The Deep Deep 5
+31,The Card of Equals,Card of Darkness,Basic Swords are all X.,5,7,11,The Deep Deep 6
+32,The Card of Death,Card of Darkness,X% chance for adjacent cards to be poisoned when you pick up a monster and take no damage.,10,10,10,The Baxlan Delves 1
+33,The Card of Recovery,Card of Darkness,The first Potion I pick up on a floor is +X.,4,8,16,The Baxlan Delves 2
+34,The Card of Mud,Card of Darkness,"When Goo splits, it poisons the card it covers up.",n/a,n/a,n/a,The Baxlan Delves 3
+35,The Card of Strength,Card of Darkness,Potion of Strength increases my bare-handed attack by 2.,n/a,n/a,n/a,The Baxlan Delves 4
+36,The Card of Sharing,Card of Darkness,Rusty Edge does X damage to all enemies on pickup.,2,4,6,The Baxlan Delves 5
+37,The Card of Return,Card of Darkness,"The first time you are killed in a dungeon, revive with X hp.",1,10,20,The Baxlan Delves 6
+38,The Card of Ease,Card of Darkness,Reduce all enemies by X (to a minimum of 1 strength).,1,2,4,Slellin Realm 3
+39,The Card of Aggression,Card of Darkness,The first weapon you pick up on each floor is doubled.,n/a,n/a,n/a,Cumulus Islet 1
+40,The Card of Cruelty,Card of Darkness,Picking up a Potion does X damage to adjacent cards.,1,3,5,Cumulus Islet 2
+41,The Card of Fossils,Card of Darkness,Blades of grass have a X% chance to be normal swords.,10,25,50,Cumulus Islet 3
+42,The Card of Precision,Card of Darkness,Confusion lasts for 1 less turn.,n/a,n/a,n/a,Cumulus Islet 4
+43,The Card of Chaos,Card of Darkness,Gain one HP each turn you're confused.,n/a,n/a,n/a,Cumulus Islet 5
+44,The Card of Clarity,Card of Darkness,X% chance a card will show through confusion.,10,25,33,Cumulus Islet 6
+45,The Card of The Deep,Card of Darkness,Your weapon goes up by X after each floor.,5,10,15,The Hushed Wall 1
+46,The Card of Study,Card of Darkness,"50% fewer scrolls, but 50% of the time when you cast a spell, the scroll is not used up.",n/a,n/a,n/a,The Hushed Wall 2
+47,The Card of Truth,Card of Darkness,Fart every time.,n/a,n/a,n/a,The Hushed Wall 3
+48,The Card of Escalation,Card of Darkness,Each face-up card goes up by X when the stairs are reached.,5,10,20,The Hushed Wall 4
+49,The Card of Plagues,Card of Darkness,All poison does 2 damage a turn.,n/a,n/a,n/a,The Hushed Wall 5
+50,The Card of Stalwarts,Card of Darkness,You cannot die from poison.,n/a,n/a,n/a,The Hushed Wall 6
+51,The Card of Keeping,Card of Darkness,"Weapons do not replace your held weapon, instead they add 1 to your current weapon, regardless of weapon type.",n/a,n/a,n/a,Slellin Realm 4
+card060,My Friend The Stairs,Friend,This happy little fellow is my ticket out of here.,n/a,n/a,n/a,n/a
+card007,Rockboy,Monster,Just your everyday bad guy. Nothing special.,n/a,n/a,n/a,Glinhorn Forest
+card008,Spinder,Monster,On Pickup: Poisons me if it does any damage. (Poison: Take 1 damage each turn),n/a,n/a,n/a,Glinhorn Forest
+card009,Craven,Monster,75% chance to swap places with nearby face-up cards.,n/a,n/a,n/a,Glinhorn Forest
+card010,Zom-me?,Monster,This looks like me? Better kill it before it escapes.,n/a,n/a,n/a,Unknown
+card011,Fist of Grollunder,Monster,"Counts down by 1 each turn, on 0 Stuns me.",n/a,n/a,n/a,Unknown
+card012,Vegetable,Monster,"Each turn increases its value by 1. On Pickup: Heals me, turns into a monster, doubles its value.",n/a,n/a,n/a,The Nether Shore
+card013,Chopped Vegetable,Monster,It seems upset.,n/a,n/a,n/a,The Nether Shore
+card014,Corrosion,Monster,On Pickup: Reduces face-up weapons by 1.,n/a,n/a,n/a,The Nether Shore
+card015,Plague,Monster,Its value is temporarily reduced by 3 for each face-up potion.,n/a,n/a,n/a,Dreary Steppes
+card016,Gravelboy,Monster,On Pickup: Increases face-up slingshots by 1.,n/a,n/a,n/a,Dreary Steppes
+card045,Eye of Magmeera,Monster,"Counts down by 1 each turn, on 0 Curses me.",n/a,n/a,n/a,Unknown
+card046,Limb of the deep,Monster,On Reveal: Phase adjacent cards. (Phase: Discard this card at the end of the turn),n/a,n/a,n/a,Unknown
+card047,Touch of The Beyond,Monster,On Reveal: Confuses me for X turns.,n/a,n/a,n/a,Unknown
+card049,Litchen,Monster,On Pickup: Turns adjacent cards to stone.,n/a,n/a,n/a,Dreary Steppes
+card050,Voidwolf,Monster,On Reveal: Consumes adjacent enemies and gains their value.,n/a,n/a,n/a,Dreary Steppes
+card051,Pack of Wolves,Monster,On Reveal: Set value to 3 x (number of face-up wolves on the board).,n/a,n/a,n/a,Dreary Steppes
+card052,Granny-Smith,Monster,On Pickup: Doubles the value of my equipped weapon.,n/a,n/a,n/a,Dreary Steppes
+card053,Swarmer,Monster,On Pickup: All swarmers move.,n/a,n/a,n/a,Mount Lavalgrave
+card054,Kindlebeast,Monster,"​Starts dry. After one turn, lights on fire. While on fire, does 1 damage to itself and 1 to me each turn.",n/a,n/a,n/a,Mount Lavalgrave
+card055,TwinTwin,Monster,"If adjacent to another twin, the two combine.",n/a,n/a,n/a,Mount Lavalgrave
+card056,Volatite,Monster,On Pickup: Reduce all adjacent cards by 1,n/a,n/a,n/a,Mount Lavalgrave
+card058,Sapper,Monster,,n/a,n/a,n/a,Mount Lavalgrave
+card059,Fungi,Monster,On Pickup: Poison adjacent cards (reduce their value by 1 each turn),n/a,n/a,n/a,The Nether Shore
+card061,Nettle,Monster,"Thorny. Reduces value by 1 each turn. Loses Thorny at value 1. (Thorny: Always does full damage when picked up, regardless of weapon value.)",n/a,n/a,n/a,Glinhorn Forest
+card062,Treehive,Monster,"Each turn has a 10% chance to spawn one bee. On Pickup: Hive heals me by its value, and spawns bees on all adjacent face-up piles.",n/a,n/a,n/a,Glinhorn Forest
+card063,Gymgi,Monster,Increases its value by 1 each turn.,n/a,n/a,n/a,Glinhorn Forest
+card066,Iceboy,Monster,A slightly rarer and stronger bad guy. Nothing special.,n/a,n/a,n/a,The Nether Shore
+card067,Fearfox,Monster,Value reduces by 3 each time I pick up a monster.,n/a,n/a,n/a,The Nether Shore
+card068,Banner Beast,Monster,On Reveal: Adjacent cards get +3. On Pickup: Adjacent cards get -3.,n/a,n/a,n/a,Glinhorn Forest
+card069,Ancient Spinder,Monster,On Pickup: Poisons me. (Poison: Take 1 damage each turn),n/a,n/a,n/a,The Nether Shore
+card070,Bee,Monster,Randomly swap places with nearby face-up cards.,n/a,n/a,n/a,Glinhorn Forest
+card071,Snowl,Monster,"On Pickup: Stuns me if it does any damage. (Stun: Take 2 turns for every 1. If already stunned, take 3 damage)",n/a,n/a,n/a,The Nether Shore
+card072,Horror,Monster,Value is always set to leave me with 1 health.,n/a,n/a,n/a,The Deep Deep
+card074,Polywog,Monster,On Reveal: polymorphs all visible monsters.,n/a,n/a,n/a,The Deep Deep
+card075,Drain,Monster,On Reveal: Phase adjacent cards. (Phase: Discard this card at the end of the turn),n/a,n/a,n/a,The Deep Deep
+card076,Weapon's Soul,Monster,On Pickup: Increases all face-up weapons by 1,n/a,n/a,n/a,The Deep Deep
+card077,Fear,Monster,On Reveal: Forces me to drop my weapon.,n/a,n/a,n/a,The Deep Deep
+card078,Invasive,Monster,On Reveal: Spawn Bramblers on all other nearby face-up piles. On Pickup: Discard all face-up nearby Bramblers.,n/a,n/a,n/a,The Deep Deep
+card079,Brambler,Monster,"Thorny. (Thorny: Always does full damage when picked up, regardless of weapon value.)",n/a,n/a,n/a,The Deep Deep
+card080,Looker,Monster,"Starts asleep. Sleeps every other turn. If a card is picked up from an adjacent pile, moves onto that pile. (Sleep: ignore card actions).",n/a,n/a,n/a,The Baxlan Delves
+card081,Timesholt,Monster,"On Pickup: Resets its pile to starting state, discards itself.",n/a,n/a,n/a,The Baxlan Delves
+card082,Corralite,Monster,On Pickup: Spawn a Hurchin or Sea Flower to every face-up pile.,n/a,n/a,n/a,The Baxlan Delves
+card083,Hurchin,Monster,"Thorny. (Thorny: Always does full damage when picked up, regardless of weapon value.)",n/a,n/a,n/a,The Baxlan Delves
+card084,Sea Flower,Monster,On Pickup: Discard all face-up Sea Flowers and Hurchins.,n/a,n/a,n/a,The Baxlan Delves
+card085,Cone of Darkness,Monster,Hides an adjacent card's number.,n/a,n/a,n/a,The Baxlan Delves
+card086,Accountant,Monster,On Pickup: Adjusts adjacent cards by up to +/- 2.,n/a,n/a,n/a,The Baxlan Delves
+card087,Goo,Monster,"On Pickup: If I take damage and there are adjacent face-up piles, splits in half.",n/a,n/a,n/a,The Baxlan Delves
+card088,Wisp,Monster,On Reveal: Swaps places with a random face-up card.,n/a,n/a,n/a,Cumulus Islet
+card089,Shuffler,Monster,On Pickup: All face-up cards are sent to the bottom of their piles.,n/a,n/a,n/a,Cumulus Islet
+card090,Muddler,Monster,On Pickup: Confuses me for two turns. (Confuse: Hide card types).,n/a,n/a,n/a,Cumulus Islet
+card091,Harmguard,Monster,50% chance to move towards the exit each turn.,n/a,n/a,n/a,Unknown
+card092,Phoenix,Monster,On Pickup: Respawns if on fire.,n/a,n/a,n/a,Cumulus Islet
+card093,Potion's Soul,Monster,On Pickup: Increases all face-up potions by 2.,n/a,n/a,n/a,Cumulus Islet
+card094,Lullabird,Monster,On Pickup: puts adjacent monsters to sleep.,n/a,n/a,n/a,Cumulus Islet
+card095,Channeler,Monster,Value is the value of all face-up monsters that are not Channelers (Minimum: 1).,n/a,n/a,n/a,The Hushed Wall
+card096,Doom,Monster,"Reduces its value by 1 each turn. At 0, all face-up Dooms hurt me by their value and then are discarded. On Pickup: Increase all face-up Doom values by 1-3.",n/a,n/a,n/a,The Hushed Wall
+card097,Two-Face,Monster,Reduces value by 3 if it matches my weapon parity (matches even/odd with my weapon).,n/a,n/a,n/a,The Hushed Wall
+card098,Nihilist,Monster,Reveals immediately. Value goes down by 3 each time I clear a pile on screen.,n/a,n/a,n/a,The Hushed Wall
+card099,Fowlest Mouth,Monster,On Pickup: Curses me. (Curse: On Pickup of any card: Take damage equal to its value if I am cursed for its value. Replace previous cursed value with new value.),n/a,n/a,n/a,The Hushed Wall
+card100,Martyr,Monster,Each turn does 1 damage to itself and 1 damage to a random monster (or another card if no face-up monsters are present).,n/a,n/a,n/a,The Hushed Wall
+card101,Entangler,Monster,All entanglers take all damage dealt to entanglers.,n/a,n/a,n/a,The Hushed Wall
+card102,Shifter,Monster,Takes the form and ability of a random face-up monster each turn and then does that monster's action,n/a,n/a,n/a,The Hushed Wall
+card103,Fowlmouth,Monster,"On Pickup: If it damages me, curses me. (Curse: On Pickup of any card: Take damage equal to its value if I am cursed for its value. Replace previous cursed value with new value.)",n/a,n/a,n/a,Dreary Steppes
+card104,Haemophile,Monster,Value goes up by 1 each time I take damage.,n/a,n/a,n/a,Dreary Steppes
+card105,Hoarder,Monster,On Pickup: makes me gilded. (Gilded: gain rewards equal to the value of every non-treasure card I pick up).,n/a,n/a,n/a,Mount Lavalgrave
+card106,Beating Heart,Monster,Be still foul beast!,n/a,n/a,n/a,Slellin Realm
+card131,Airbox,Monster,On Break: Push adjacent top cards away.,n/a,n/a,n/a,Chaos Realm
+card132,Scenic Route,Monster,On Pickup: Move the exit.,n/a,n/a,n/a,Chaos Realm
+card133,Punching Bag,Monster,On Break: Increase my unequipped attack by 1.,n/a,n/a,n/a,Chaos Realm
+card134,Duplicator,Monster,On Break: Duplicate the top card of every pile.,n/a,n/a,n/a,Chaos Realm
+card135,Typhoonbox,Monster,On Break: Push adjacent piles away.,n/a,n/a,n/a,Chaos Realm
+card057,Mimorust,Monster,"Copies the highest adjacent card value. If no adjacent cards, dies.",n/a,n/a,n/a,Mount Lavalgrave
+card017,Potion of Healing,Potion,Just a standard potion. On Pickup: Heals me by its value.,n/a,n/a,n/a,n/a
+card018,Potion of Patience,Potion,Its value goes up by 1 each turn. On Pickup: Heals me.,n/a,n/a,n/a,n/a
+card019,Potion of Glamour,Potion,"On Pickup: Heals me, doubles the value of adjacent cards.",n/a,n/a,n/a,n/a
+card109,Potion of Confusion,Potion,On Pickup: Heals me by its value. Confuses me for 3 turns. (Confuse: Hide card types).,n/a,n/a,n/a,n/a
+card110,Potion of Strength,Potion,On Pickup: Heals me by its value and increases my bare-handed attack by 1.,n/a,n/a,n/a,n/a
+card111,Potion of Recklessness,Potion,On Pickup: Heals me by its value and then poisons me. (Poison: Take 1 damage each turn),n/a,n/a,n/a,n/a
+card112,Potion of Fitness,Potion,On Pickup: Heals me by its value. Increases my maximum health by 1.,n/a,n/a,n/a,n/a
+card113,Potion of Shattering,Potion,On Pickup: Heals me by its value and breaks my weapon.,n/a,n/a,n/a,n/a
+card127,Bravery Potion,Potion,Heals me by my attack value +1.,n/a,n/a,n/a,n/a
+card020,Fireball!,Scroll,Reduce target card by 7.,n/a,n/a,n/a,n/a
+card021,Teleport,Scroll,Send target card to a random face-up pile.,n/a,n/a,n/a,n/a
+card022,Flee,Scroll,Unmark target pile.,n/a,n/a,n/a,n/a
+card023,Discover,Scroll,Reveal all piles adjacent to target card.,n/a,n/a,n/a,n/a
+card024,Trespass,Scroll,Reveal and mark all piles adjacent to target card.,n/a,n/a,n/a,n/a
+card025,Reduce,Scroll,Reduce all nearby face-up cards by the value of target card.,n/a,n/a,n/a,n/a
+card026,Fortify,Scroll,Doubles my current weapon value.,n/a,n/a,n/a,n/a
+card027,Ambition,Scroll,Reveal and mark every pile.,n/a,n/a,n/a,n/a
+card028,Polymorph,Scroll,Polymorph target card.,n/a,n/a,n/a,n/a
+card029,Forge,Scroll,Turn target card into a sword.,n/a,n/a,n/a,n/a
+card030,Shuffle,Scroll,Shuffle every pile.,n/a,n/a,n/a,n/a
+card031,Requip,Scroll,Summon the last weapon I had back to my hand,n/a,n/a,n/a,n/a
+card032,Petrify,Scroll,Turn target card to stone.,n/a,n/a,n/a,n/a
+card033,Banish,Scroll,Send target card to the back of its stack.,n/a,n/a,n/a,n/a
+card034,Shove,Scroll,Move target card onto nearby pile.,n/a,n/a,n/a,n/a
+card035,Poison,Scroll,Poison target card (It loses 1 value per turn).,n/a,n/a,n/a,n/a
+card036,Increment,Scroll,Increase target card by 1.,n/a,n/a,n/a,n/a
+card037,Bolster,Scroll,Raise current weapon by 3.,n/a,n/a,n/a,n/a
+card038,Seal,Scroll,Protect my current weapon against breaking.,n/a,n/a,n/a,n/a
+card114,Vitality,Scroll,Double current health,n/a,n/a,n/a,n/a
+card115,Hunger,Scroll,Turn every face-up card into a mimic.,n/a,n/a,n/a,n/a
+card128,Transmogrify,Scroll,Target card becomes a copy of an adjacent face-up card every turn.,n/a,n/a,n/a,n/a
+card129,Energize,Scroll,Target card moves once every turn.,n/a,n/a,n/a,n/a
+card130,Entropy,Scroll,Reshuffle and deal the entire board.,n/a,n/a,n/a,n/a
+UpgradePotion1,Lv. 1 Token of Muster Upgrade,Shop Item,Improve summoned potions to value 3 or 4.,n/a,n/a,n/a,n/a
+UpgradePotion2,Lv. 2 Token of Muster Upgrade,Shop Item,Summoned potions will now be value 4 or 5.,n/a,n/a,n/a,n/a
+UpgradePotion3,Lv. 3 Token of Muster Upgrade,Shop Item,Summon potions of value 5 or 6.,n/a,n/a,n/a,n/a
+UpgradePotion4,Lv. 4 Token of Muster Upgrade,Shop Item,Summon potions of value 6 or 7.,n/a,n/a,n/a,n/a
+UpgradeScroll1,Lv. 1 Scroll Summons Upgrade,Shop Item,Summon additional Scroll types.,n/a,n/a,n/a,n/a
+UpgradeScroll2,Lv. 2 Scroll Summons Upgrade,Shop Item,Summon even more Scroll types.,n/a,n/a,n/a,n/a
+UpgradeScroll3,Lv. 3 Scroll Summons Upgrade,Shop Item,Summon so many Scroll types.,n/a,n/a,n/a,n/a
+UpgradeScroll4,Lv. 4 Scroll Summons Upgrade,Shop Item,Summon all of the greatest Scroll types.,n/a,n/a,n/a,n/a
+UpgradeWeapon1,Lv. 1 Weapon Beckon Upgrade,Shop Item,Summon weapons of value 3 or 4.,n/a,n/a,n/a,n/a
+UpgradeWeapon2,Lv. 2 Weapon Beckon Upgrade,Shop Item,Improve summoned weapons to value 4 or 5.,n/a,n/a,n/a,n/a
+UpgradeWeapon3,Lv. 3 Weapon Beckon Upgrade,Shop Item,Weapons summoned will be value 5 or 6.,n/a,n/a,n/a,n/a
+UpgradeWeapon4,Lv. 4 Weapon Beckon Upgrade,Shop Item,Summon weapons of value 6 or 7.,n/a,n/a,n/a,n/a
+CoDSlot1,Vision Frog,Shop Item,For astral clarity and clairvoyant perception.,n/a,n/a,n/a,n/a
+CoDSlot2,Living Compass,Shop Item,Go where the compass points you. Or don't.,n/a,n/a,n/a,n/a
+CoDSlot3,Duster of Goob,Shop Item,The Duster of Goob goes where no mop ever could.,n/a,n/a,n/a,n/a
+CoDSlot4,Mysterious Mochi,Shop Item,The Mysterious Mochi boasts flavors both unnatural and unnecessary.,n/a,n/a,n/a,n/a
+CoDSlot5,Sludge of Life,Shop Item,"This is a truly terrible item, but being imbued with the essence of life, can't be passed up.",n/a,n/a,n/a,n/a
+card048,Token of Frumpet,Token,On Pickup: Summons a random monster to a face-up pile.,n/a,n/a,n/a,n/a
+card116,Weapon Beckon,Token,Adds a random weapon to target face-up pile.,n/a,n/a,n/a,n/a
+card117,Token of Muster,Token,Adds a random potion to target face-up pile.,n/a,n/a,n/a,n/a
+card118,Scroll Summons,Token,Adds a random scroll to target face-up pile.,n/a,n/a,n/a,n/a
+card039,Treasure!,Treasure,Just some basic treasure. On Pickup: rewards me by its value.,n/a,n/a,n/a,n/a
+card040,Mimic,Treasure,On Pickup: rewards and hurts me.,n/a,n/a,n/a,n/a
+card041,Trophy,Treasure,Worth as much as the strongest monster defeated this floor. On Pickup: rewards me by its value.,n/a,n/a,n/a,n/a
+card042,Covetous Gem,Treasure,Worth as much as the most powerful adjacent card. On Pickup: rewards me by its value.,n/a,n/a,n/a,n/a
+card043,Shy Chest,Treasure,Hides at the bottom of it's pile when discovered. On Pickup: rewards me by its value.,n/a,n/a,n/a,n/a
+card125,Greed Chest,Treasure,Doubles its value for each treasure I pick up. Resets to 1 if I pick up any other kind of card.,n/a,n/a,n/a,n/a
+card044,A Small Pile of Gold,Treasure,It's a disappointing pile of gold. I wonder why this is here? On Pickup: rewards me by its value.,n/a,n/a,n/a,n/a
+card001,Basic Sword,Weapon,Reduces monster damage. Breaks on opposite parity (doesn't match even/odd with the card I'm using it on).,n/a,n/a,n/a,n/a
+card002,Rock Slinger,Weapon,Does 1 damage to any card. Ranged. (Ranged: Card Value represents ammo. Does not mark piles. Does not trigger On Pickup events.),n/a,n/a,n/a,n/a
+card003,Simple Dagger,Weapon,Each use reduces its value by 1.,n/a,n/a,n/a,n/a
+card005,Burning Steel,Weapon,Damages me by 1 point each turn while equipped.,n/a,n/a,n/a,n/a
+card073,Bladefish,Weapon,On Pickup: Equips as a weapon.,n/a,n/a,n/a,n/a
+card119,Shiv,Weapon,Does not mark piles.,n/a,n/a,n/a,n/a
+card120,Rusty Edge,Weapon,Damages me by its value on Pickup. Does 1 damage to adjacent enemies on use.,n/a,n/a,n/a,n/a
+card121,Blade of Grass,Weapon,Reduces monster damage. Breaks on use.,n/a,n/a,n/a,n/a
+card122,Feed Spur,Weapon,Value increases after each use.,n/a,n/a,n/a,n/a
+card123,Bone Knife,Weapon,Other weapons do not replace this weapon.,n/a,n/a,n/a,n/a
+card126,Cursed Blade,Weapon,On Pickup: Increase all face-up card values by 1.,n/a,n/a,n/a,n/a
