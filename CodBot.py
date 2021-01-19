@@ -23,7 +23,7 @@ def CardSearch(card):
             CardTitles.append(row['Title'])
         FuzzyMatch = process.extractOne(card, CardTitles)
         CardMatch = str(FuzzyMatch)[2:-6]
-        # If not CoD, slice one additional char at end, or else it leaves a trailing apostrophe in string
+        # Sometimes slice one additional char at end, or else it leaves a trailing apostrophe in string
         if CardMatch.endswith("\'") is True:
             CardMatch = CardMatch[:-1]
 
@@ -38,10 +38,11 @@ def CardSearch(card):
 
                 # If card is Card of Darkness, check the level modifiers
                 if str(row2['Type']) == 'Card of Darkness':
+
                     # If card is CoD and has no level modifiers
                     if (row2['Level 1'] or row2['Level 1'] or row2['Level 1']) == 'n/a':
                         CardDesc = str(row2['Title']) + '\n'+ str(row2['Description']) +'\n'+\
-                        'No level modifiers'+'\n'+'Campaign: '+str(row2['Zone']) + '\n'+'Type: '+str(row2['Type'])
+                        'No level modifiers'+'\n'+'Zone: '+str(row2['Zone']) + '\n'+'Type: '+str(row2['Type'])
                         return CardDesc
 
                     # If card has level modifiers, append them to output
@@ -54,7 +55,7 @@ def CardSearch(card):
                                    'Type: ' + str(row2['Type'])
                         return CardDesc
 
-                # If card is a monster, shows zone it's from
+                # If card is a monster, shows zone where it's from
                 elif str(row2['Type']) == 'Monster':
                     CardDesc = str(row2['Title']) +'\n'+str(row2['Description']) +'\n'+\
                                'Zone: ' + str(row2['Zone']) + '\n'+'Type: '+str(row2['Type'])
