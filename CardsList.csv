@@ -73,7 +73,7 @@ card053,Swarmer,Monster,On Pickup: All swarmers move.,n/a,n/a,n/a,Mount Lavalgra
 card054,Kindlebeast,Monster,"​Starts dry. After one turn, lights on fire. While on fire, does 1 damage to itself and 1 to me each turn.",n/a,n/a,n/a,Mount Lavalgrave
 card055,TwinTwin,Monster,"If adjacent to another twin, the two combine.",n/a,n/a,n/a,Mount Lavalgrave
 card056,Volatite,Monster,On Pickup: Reduce all adjacent cards by 1,n/a,n/a,n/a,Mount Lavalgrave
-card058,Sapper,Monster,,n/a,n/a,n/a,Mount Lavalgrave
+card058,Sapper,Monster,"Each turn reduces adjacent weapons, potions, or treasure by 1 and gains 1 value for each reduced.",n/a,n/a,n/a,Mount Lavalgrave
 card059,Fungi,Monster,On Pickup: Poison adjacent cards (reduce their value by 1 each turn),n/a,n/a,n/a,The Nether Shore
 card061,Nettle,Monster,"Thorny. Reduces value by 1 each turn. Loses Thorny at value 1. (Thorny: Always does full damage when picked up, regardless of weapon value.)",n/a,n/a,n/a,Glinhorn Forest
 card062,Treehive,Monster,"Each turn has a 10% chance to spawn one bee. On Pickup: Hive heals me by its value, and spawns bees on all adjacent face-up piles.",n/a,n/a,n/a,Glinhorn Forest
@@ -124,6 +124,7 @@ card133,Punching Bag,Monster,On Break: Increase my unequipped attack by 1.,n/a,n
 card134,Duplicator,Monster,On Break: Duplicate the top card of every pile.,n/a,n/a,n/a,Chaos Realm
 card135,Typhoonbox,Monster,On Break: Push adjacent piles away.,n/a,n/a,n/a,Chaos Realm
 card057,Mimorust,Monster,"Copies the highest adjacent card value. If no adjacent cards, dies.",n/a,n/a,n/a,Mount Lavalgrave
+card048,Token of Frumpet,Monster,On Pickup: Summons a random monster to a face-up pile.,n/a,n/a,n/a,Slellin Realm
 card017,Potion of Healing,Potion,Just a standard potion. On Pickup: Heals me by its value.,n/a,n/a,n/a,n/a
 card018,Potion of Patience,Potion,Its value goes up by 1 each turn. On Pickup: Heals me.,n/a,n/a,n/a,n/a
 card019,Potion of Glamour,Potion,"On Pickup: Heals me, doubles the value of adjacent cards.",n/a,n/a,n/a,n/a
@@ -174,7 +175,6 @@ CoDSlot2,Living Compass,Shop Item,Go where the compass points you. Or don't.,n/a
 CoDSlot3,Duster of Goob,Shop Item,The Duster of Goob goes where no mop ever could.,n/a,n/a,n/a,n/a
 CoDSlot4,Mysterious Mochi,Shop Item,The Mysterious Mochi boasts flavors both unnatural and unnecessary.,n/a,n/a,n/a,n/a
 CoDSlot5,Sludge of Life,Shop Item,"This is a truly terrible item, but being imbued with the essence of life, can't be passed up.",n/a,n/a,n/a,n/a
-card048,Token of Frumpet,Token,On Pickup: Summons a random monster to a face-up pile.,n/a,n/a,n/a,n/a
 card116,Weapon Beckon,Token,Adds a random weapon to target face-up pile.,n/a,n/a,n/a,n/a
 card117,Token of Muster,Token,Adds a random potion to target face-up pile.,n/a,n/a,n/a,n/a
 card118,Scroll Summons,Token,Adds a random scroll to target face-up pile.,n/a,n/a,n/a,n/a
